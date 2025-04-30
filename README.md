@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Hi there, I'm Enes İncekara! 👋</h1>
+<h1 align="center">🚀 Hi there, I'm Enes İncekara – Backend Developer 👋</h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/enes-incekara/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -10,19 +10,38 @@
 ---
 
 ### 💡 About Me
-🔹 **QA Engineer | Test Automation | Backend Development**  
-🔹 Passionate about **software testing, automation, and data visualization**  
-🔹 Experienced in **Selenium, Docker, SQL, and test automation frameworks**  
-🔹 I love solving **complex problems and optimizing workflows**  
+
+🔹 **Backend Developer | QA Engineer | Automation Enthusiast**  
+🔹 Strong experience with **Spring Boot, Microservices, and RESTful APIs**  
+🔹 Passionate about building **resilient, scalable, and testable backend systems**  
+🔹 Familiar with **distributed systems**, event-driven architecture, and DevOps culture  
+🔹 I also bring hands-on experience in **test automation and CI/CD**
 
 ---
 
-### 🛠 Tech Stack  
-🔥 **Programming Languages:** JAVA , C# , Python , SQL  
-🔹 **Automation Tools:** Selenium, Docker , Appium 
-🔹 **Databases:** MySQL, SQL Server, SQLite  
-🔹 **CI/CD & DevOps:** GitHub Actions, Docker  
-🔹 **Testing & QA:** Test Automation, Manual Testing  
+### 🔨 Tech Stack
+
+- 🔥 **Languages:** Java (Spring Boot), C#, Python, SQL  
+- ⚙️ **Frameworks:** Spring Boot, Spring Cloud, .NET Core  
+- 📦 **Architecture:** Microservices, REST API, Kafka, Feign, CircuitBreaker  
+- 🗄️ **Databases:** MySQL, PostgreSQL, SQL Server, Redis  
+- 📋 **Testing:** JUnit, Mockito, Selenium, Test Automation  
+- 🚀 **DevOps & CI/CD:** Docker, GitHub Actions, Jenkins  
+- 📡 **Monitoring & Observability:** Zipkin, Actuator, Micrometer
+
+---
+
+### 🚧 Featured Projects
+
+- 🧱 **[advanced-microservices](https://github.com/enesincekaraa/advanced-microservices)**  
+  `Spring Boot 3`, `Spring Cloud`, `Resilience4j`, `RabbitMQ`, `Zipkin`, `Eureka`, `Gateway`  
+  > Real-world microservice architecture with Retry, CircuitBreaker, distributed tracing, centralized config and service discovery.
+
+- 🛒 **[ecommerce-api](https://github.com/enesincekaraa/ecommerce-api)**  
+  A modular e-commerce REST API developed with Spring Boot and MySQL.
+
+- 🧪 **[selenium-docker-tests](https://github.com/enesincekaraa/selenium-docker-tests)**  
+  Test automation suite using Selenium WebDriver, Dockerized execution with parallel test runs.
 
 ---
 
@@ -38,8 +57,9 @@
 📧 **Email:** enesincekara61@gmail.com  
 🔗 **LinkedIn:** [linkedin.com/in/enes-incekara](https://www.linkedin.com/in/enes-incekara/)  
 💻 **GitHub:** [github.com/enesincekaraa](https://github.com/enesincekaraa)  
-📝 **Medium:** [medium.com/@enesincekaradev](https://medium.com/@enesincekaradev)   
+📝 **Medium:** [medium.com/@enesincekaradev](https://medium.com/@enesincekaradev)
 
 ---
 
-💡 *“Quality is never an accident; it is always the result of intelligent effort.”*  
+> 💡 *“Quality is never an accident; it is always the result of intelligent effort.”*
+
