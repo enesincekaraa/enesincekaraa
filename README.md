@@ -1,112 +1,68 @@
-<h1 align="center">🚀 Merhaba, ben Enes İncekara – Backend Developer 👋</h1>
+<h1 align="center">Enes İncekara</h1>
+<h3 align="center">Software Engineer | Backend Architecture & System Design</h3>
 
 <p align="center">
-
 <a href="https://www.linkedin.com/in/enes-incekara/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-
 <a href="https://github.com/enesincekaraa"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-
 <a href="mailto:enesincekara61@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-
 <a href="https://medium.com/@enesincekaradev"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/></a>
-
 </p>
 
 ---
 
-## 💡 Hakkımda
+## 💡 Mühendislik Felsefem
 
-Java ve Spring Boot ekosisteminde **backend geliştirme** üzerine odaklanıyorum.
+Kalite odaklı ve test edilebilir bir mühendislik disiplinini merkeze alarak, **ölçeklenebilir, dayanıklı (resilient) ve yüksek performanslı backend sistemleri** tasarlıyorum. 
 
-Özellikle:
-
-* Microservice mimarisi
-* Event-driven sistemler
-* Redis cache ve performans optimizasyonu
-* Kafka ile asenkron veri akışı
-* Docker ve CI/CD süreçleri
-
-üzerine **production’a yakın projeler geliştiriyorum.**
-
-Amacım sadece çalışan değil, **ölçeklenebilir, sürdürülebilir ve gerçek dünya problemlerini çözen sistemler** geliştirmek.
+Sadece kod yazmakla yetinmiyor; **Domain-Driven Design (DDD)**, **Event-Driven Architecture (EDA)** ve **Çok Kiracılı (Multi-tenant)** sistemler üzerine mimari kararlar alıyorum. Son dönemde geleneksel mikroservis mimarilerini, yerel yapay zeka (LLM/RAG) entegrasyonlarıyla birleştirerek modern sınırları zorluyor ve doğrudan gerçek dünya problemlerini çözen production-ready projeler üretiyorum.
 
 ---
 
-## 🧠 Uzmanlık Alanlarım
+## 🧠 Teknoloji Yığını & Uzmanlık
 
-* **Backend:** Java, Spring Boot, REST API
-* **Mimari:** Microservices, Event-Driven Architecture, Clean Architecture
-* **Messaging:** Kafka, RabbitMQ
-* **Cache:** Redis (rate limiting, caching)
-* **Database:** PostgreSQL, MySQL
-* **DevOps:** Docker, Docker Compose, GitHub Actions
-* **Test:** JUnit, Mockito
-* **Observability:** Actuator, Micrometer
+*   **Backend & Frameworks:** Java, Spring Boot, C#, .NET, REST API Design
+*   **Architecture & Patterns:** Microservices, Event-Driven Systems, Clean Architecture, Transactional Outbox Pattern
+*   **Message Brokers:** Apache Kafka, RabbitMQ (Dead-Letter Queues, Async Processing)
+*   **Data & Caching:** PostgreSQL, MySQL, Redis (Rate Limiting, In-memory caching)
+*   **AI Integration:** Ollama, Qwen 2.5 (Local LLM), RAG Systems
+*   **DevOps & Observability:** Docker, Docker Compose, GitHub Actions, Actuator, Micrometer
 
 ---
 
-## 🚀 Öne Çıkan Projeler
+## 🚀 Öne Çıkan Mühendislik Projeleri
 
-### 🔥 BitPath
+### 🤖 DocuMind AI | *Multi-Tenant RAG System*
+Kullanıcıların belgeleri üzerinde izole bir şekilde yapay zeka tabanlı soru-cevap yapmasını sağlayan sistem.
+*   **Mimari:** Thread-bound `TenantContext` ile yönetilen Multi-tenant yapı.
+*   **AI & Resilience:** Yerel Ollama (Qwen 2.5) entegrasyonu, **Circuit Breaker** ve **Retry** (Resilience4j) ile korunan dayanıklı (resilient) çağrılar.
+*   **Async Processing:** MinIO ve RabbitMQ üzerinden arka planda asenkron belge işleme ve vektörizasyon.
+*   **Security:** Bucket4j ile kiracı bazlı API Rate Limiting ve RFC 7807 standartlarında Exception Handling.
 
-URL kısaltma + analytics platformu
+### ⚡ EventHub Platform | *Event-Driven Microservices*
+Dağıtık sistemlerde veri tutarlılığını sağlayan gelişmiş event-driven altyapısı.
+*   **Patterns:** Domain Events ve **Transactional Outbox Pattern** implementasyonu.
+*   **Messaging:** Spring Kafka ile yüksek hacimli producer & consumer yönetimi.
+*   **Focus:** Gerçek sistemlerde kullanılan advanced mesajlaşma garantileri (at-least-once delivery).
 
-* Redis cache + rate limiting
-* PostgreSQL persistence
-* Kafka ile click event tracking
-* Microservice mimari
+### ⚖️ Lexiflow & InvoiceGuard | *Asynchronous Microservices*
+Sözleşme analizi ve fatura güvenliği süreçlerini yöneten dağıtık servisler.
+*   **Messaging:** RabbitMQ ile asenkron iletişim ve **Dead-Letter Queue (DLQ)** yapılandırmaları.
+*   **Focus:** Hata toleransı (fault tolerance) ve kayıpsız veri işleme.
 
-👉 Production mantığında tasarlanmış gerçek bir backend sistemi
-
----
-
-### ⚡ EventHub Platform
-
-Event-driven microservice sistemi
-
-* Outbox Pattern
-* Domain Events
-* Kafka Producer & Consumer
-* Transactional event publishing
-
-👉 Gerçek sistemlerde kullanılan advanced backend pattern’leri içerir
-
----
-
-### 🧱 Retail Engine
-
-Rich domain model odaklı backend servis
-
-* Domain-driven yaklaşım
-* Redis cache
-* Validation & business rules
+### 🔥 BitPath | *High-Performance URL Shortener*
+Yüksek trafikli link kısaltma ve analiz platformu.
+*   **Performance:** Redis cache ve Rate limiting ile optimize edilmiş yanıt süreleri.
+*   **Analytics:** Kafka üzerinden asenkron "click event tracking" mekanizması.
+*   **Storage:** PostgreSQL persistence.
 
 ---
 
-### 💳 Wallet Service
+## 🎯 Şu Anda Neler Yapıyorum?
 
-Concurrency ve transaction yönetimi
-
-* Pessimistic locking
-* Veri tutarlılığı senaryoları
-
----
-
-## 🎯 Şu Anda Odaklandıklarım
-
-* Production-ready microservice geliştirme
-* Event-driven architecture derinleşme
-* CI/CD ve deployment süreçleri
-* System design ve scalability
+*   Production-ready, hata toleransı yüksek (fault-tolerant) dağıtık sistemler inşa ediyorum.
+*   Yerel yapay zeka modellerini (Local LLMs) mikroservis ekosistemlerine asenkron olarak entegre etme üzerine çalışıyorum.
+*   Backend mimarilerinde performans optimizasyonu ve "System Design" konularında derinleşiyorum.
 
 ---
 
-## 📫 İletişim
-
-📧 [enesincekara61@gmail.com](mailto:enesincekara61@gmail.com)
-🔗 https://www.linkedin.com/in/enes-incekara
-💻 https://github.com/enesincekaraa
-
----
-
-> 💡 “Sadece çalışan değil, üretime hazır sistemler geliştirmeye odaklanıyorum.”
+> *"Good architecture is not about making the right decisions early, but making decisions easy to change later."*
