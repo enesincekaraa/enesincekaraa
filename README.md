@@ -1,5 +1,5 @@
 <h1 align="center">Enes İncekara</h1>
-<h3 align="center">Software Engineer | Backend Architecture & System Design</h3>
+<h3 align="center">Software Engineer</h3>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/enes-incekara/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
